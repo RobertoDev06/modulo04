@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegações através pelo Iframe</title>
+    <style>
+            body{
+                background-color: rgb(8, 170, 170);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+            }
+
+            #tela{
+                 width: 95vw;
+                 height: 400px;
+                 border: 1px solid black;
+            }
+
+            a {
+                text-decoration: none;
+            }
+    </style>
+</head>
+<body>
+    <h1>Faça uma Escolha</h1>
+    <ul>
+        <li><a href="pag01.html" target="frame">Pág. 01</a></li>
+        <li><a href="pag02.html" target="frame">Pág. 02</a></li>
+        <li><a href="pag03.html" target="frame">Pág. 03</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore molestias modi error praesentium blanditiis nisi quidem cumque nobis quo. Blanditiis officia aliquam est consectetur, illo tempore. Eum illo accusamus vitae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptas, ipsum facilis dolorum voluptatum quaerat officiis autem, facere eum cumque harum ullam totam, dolores reiciendis! Exercitationem praesentium quis officiis perferendis?</p>
+
+    <iframe id="tela" name="frame" frameborder="1">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam repellat deserunt dolorum veritatis illum, sequi dicta beatae eius quia amet rem quo. Architecto aspernatur atque eveniet totam quaerat officiis nostrum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dolor quibusdam incidunt libero. Dolore eligendi, dolores aliquam in dignissimos blanditiis molestias minima ut hic sit vero suscipit quas quae molestiae!</p>
+</body>
+</html>
