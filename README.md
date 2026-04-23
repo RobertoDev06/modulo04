@@ -1,2 +1,2 @@
 # modulo04
-Estudo sobre quadros em linha, formulários, media queries, mobile first.
+Estudo sobre quadros em linha, formulários, media queries, mobile first e projetos.
